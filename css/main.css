@@ -1,6 +1,24 @@
-body, div, p {
+body, div {
   font-family: sans-serif;
   background-image: url('../res/background.png');
   background-size: cover;
-  color: white;
+  color: #ffffffff;
+}
+
+h1, a {
+  color: #ff5500ff;
+  text-decoration: underline;
+}
+
+strong {
+  font-style: italic;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h2 {
+  color: #ffffffff;
+  text-decoration: none;
 }
